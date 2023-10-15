@@ -1,0 +1,30 @@
+/* Custom styles for the Home component */
+h1 {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.Form.Control {
+  max-width: 400px;
+}
+
+.custom-button {
+  background-color: #3F0071;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.custom-button:hover {
+  background-color: #a897ad; /* Set the desired background color on hover */
+}
+
+.startContainer {
+  margin-top: 250px;
+}
+
+/* Add additional styles for small screens */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "furniture": {
+    "title": "Furniture",
+    "conditions": {
+      "Brand New": "The furniture is new and unused, with no signs of wear. It is in perfect condition.",
+      "Like New": "The furniture has been gently used and shows minimal signs of wear. It is in excellent condition.",
+      "Very Good": "The furniture has been used but is well-maintained. It may have minor scratches or scuffs, but overall, it is in good shape.",
+      "Good": "The furniture has been used and may have visible signs of wear, such as scratches or dents, but it is still sturdy and functional.",
+      "Acceptable": "The furniture has been used extensively and may have noticeable wear and tear, but it is still functional and usable."
+    }
+  },
+  "electronic": {
+    "title": "Electronic",
+    "conditions": {
+      "Brand New": "The product is new, unused, and in its original packaging. It has not been opened or used.",
+      "Like New": "The product is in excellent condition with minimal signs of use. It may have been opened or used briefly but shows no significant wear.",
+      "Very Good": "The product has been used but is well-maintained. It may show minor signs of wear, but all functions are working properly.",
+      "Good": "The product has been used and may have some visible wear and tear, but it is still functional and works as intended.",
+      "Acceptable": "The product hasnbeen used extensively and may have noticeable wear and tear, but it still functions and can be used."
+    }
+  },
+  "fashion": {
+    "title": "Fashion",
+    "conditions": {
+      "Brand New": "The product is new and has never been worn. It is in perfect condition with no defects.",
+      "Like New": "The product has been worn briefly and shows no signs of wear. It is in excellent condition.",
+      "Very Good": "The product has been worn but is well-maintained. It may have minor signs of wear, but there are no major flaws.",
+      "Good": "The product has been worn and may have visible signs of wear, but it is still in wearable condition and looks good.",
+      "Acceptable": "The product has been worn extensively and may have noticeable wear and tear, but it is still wearable and functional."
+    }
+  },
+  "school": {
+    "title": "School Things",
+    "conditions": {
+      "Brand New": "The item is new and unused, with no signs of wear. It is in perfect condition.",
+      "Like New": "The item has been gently used and shows minimal signs of wear. It is in excellent condition.",
+      "Very Good": "The item has been used but is well-maintained. It may have minor signs of wear, but it is still in good shape.",
+      "Good": "The item has been used and may have visible signs of wear, such as marks or minor damage, but it is still functional.",
+      "Acceptable": "The item has been used extensively and may have noticeable wear and tear, but it is still usable for its intended purpose."
+    }
+  }
+}

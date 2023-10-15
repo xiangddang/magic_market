@@ -1,0 +1,14 @@
+/* Custom CSS for the search bar */
+.custom-search-bar .ant-btn-primary {
+  background-color: #3F0071; /* Change this to your desired color */
+  border-color: #3F0071; /* Change this to your desired color */
+  color: white; /* Change this to your desired text color */
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Add rounded corners to the menu items */
+.ant-menu-item {
+  border-radius: 8px; /* Adjust the value (e.g., 8px) to control the amount of rounding */
+}

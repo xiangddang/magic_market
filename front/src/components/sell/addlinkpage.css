@@ -1,0 +1,24 @@
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to 100vh to fill the entire viewport */
+  background-color: #FFFBF5;
+}
+
+.contentContainer{
+  text-align: center;
+  font-size: 24px;
+  color: #9a9a9a;
+}
+
+.contentContainer button {
+  display: flex; /* Use flexbox to center the text */
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  font-size: 16px; /* Adjust the font size as needed */
+  padding: 10px 20px; /* Adjust the padding to control the button's size */
+  border: none;
+  background-color: #3F0071; /* Replace this with the desired background color */
+  color: #ffffff;
+}

@@ -1,0 +1,46 @@
+.listRow {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.listRow > div {
+    padding: 5px; /* Apply padding to create space between cards in a row */
+}
+
+.linkStyle {
+    text-decoration: none; /* Remove the underline */
+    color: inherit; /* Optional - Use the parent element's color */
+}
+
+.productImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Use 'cover' to maintain aspect ratio and crop image as needed */
+  border-top-left-radius: 8px; /* Adjust border radius to create rounded corners */
+  border-top-right-radius: 8px; /* Adjust border radius to create rounded corners */
+}
+
+.cardBodyContainer {
+  padding: 8px;
+  height: 450px;
+  max-width: 100%;
+}
+
+.heartContainer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: felx;
+  gap: 5px;
+  z-index: 1;
+}
+
+.heartIcon {
+  font-size: 30px;
+  color: #3F0071;
+}
+
+.cardTitle {
+    font-weight: bold;
+  }

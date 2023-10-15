@@ -1,0 +1,42 @@
+/* .list-group {
+  margin-left: 10;
+  width: 285;
+  height: "100%";
+  border-radius: 8; 
+  overflow: "hidden";
+} */
+
+.list-group {
+  border-color: white; /* Change this to your desired color */
+  color: white; /* Change this to your desired text color */
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.list-group-item {
+  background-color: #674188;
+  border-color: white;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center the content horizontally */
+}
+
+.list-group-item:hover {
+  background-color: #ddd;
+}
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust the width of the sidebar for smaller screens */
+  .list-group {
+    width: 100%;
+  }
+}
+

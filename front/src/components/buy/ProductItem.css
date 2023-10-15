@@ -1,0 +1,29 @@
+.image-container {
+  max-height: 80%;
+}
+
+.carousel {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-card {
+  max-width: 62%;
+  margin-left: 17%;
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  max-height: 100%; /* Use 100% to fill the entire height of the carousel container */
+}
+
+.cardImg {
+  max-height: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.rightSide {
+  background-color: #FFFBF5;
+}

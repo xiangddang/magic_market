@@ -1,0 +1,84 @@
+/* customNavbar.css */
+
+/* Set the background color of the Navbar */
+.navbar-custom {
+  background-color: #2A2F4F;
+  padding: 10px 0;
+}
+
+/* .navbar-custom .navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+} */
+
+.navbar-custom .nav-link {
+  color: #ffffff; /* Use white color for text */
+  font-size: 22px; /* Set the font size for the text */
+  font-weight: bold; /* Set the font weight for the text */
+}
+
+/* 左侧网站标题和导航链接 */
+.webTitle {
+  margin-right: 20px;
+}
+
+/* 调整logo位置 */
+.marketLogo {
+  margin-left: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* 右侧消息图标和用户头像容器 */
+.messages {
+  float: right;
+  margin-top: 10px; /* 调整垂直对齐 */
+}
+
+.messageIcon {
+  font-size: 35px;
+  margin-bottom: 8px;
+}
+
+.userIcon {
+  border-radius: 50%;
+  object-fit: cover; /* 保持原始分辨率 */
+  margin-right: 100px;
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  width: 0px;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  width: 200px;
+  right: 0;
+  left: auto;
+}
+
+.dropdown-item {
+  color: #3F0071;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #f0f0f0;
+}
+
+/* 未读消息徽章 */
+.ant-badge {
+  margin-left: 10px;
+}
+
+/* 清除默认的边距和间距 */
+.container-fluid {
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 50px;
+}

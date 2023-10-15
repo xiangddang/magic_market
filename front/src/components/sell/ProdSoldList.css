@@ -1,0 +1,33 @@
+.bootstrap-card {
+  max-width: 60%;
+  margin: 10px;
+  min-width: 400px;
+}
+
+.del-sold-button {
+  margin-top: 15px;
+  margin-right: 20px;
+  background-color:#3F0071;
+  color:white;
+  font-size: 15px;
+  height: 30px;
+  border: none;
+}
+
+.del-sold-button.hover {
+  background-color:#bdbdbd;
+}
+
+.sold-descrip {
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.sold-status {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.prod-title {
+  font-size: 20px;
+}

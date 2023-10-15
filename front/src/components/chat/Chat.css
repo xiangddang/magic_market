@@ -1,0 +1,117 @@
+/* Chat.css */
+
+.comment-wrapper {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  height: 40px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.comment.right {
+  justify-content: flex-end;
+}
+
+.comment.left {
+  justify-content: flex-start;
+}
+
+.comment.right .sender-info {
+  text-align: right;
+  margin-left: auto;
+}
+
+.comment.left .sender-info {
+  text-align: left;
+  margin-right: auto;
+}
+
+.sender-name {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.comment.left .sender-info {
+  text-align: left;
+  margin-right: auto;
+}
+
+.comment.right .message {
+  margin-left: auto;
+  max-width: 65%;
+  margin-left: 30%; /* Start from 30% of width */
+  margin-right: 10%;
+}
+
+.comment.left .message {
+  margin-left: auto;
+  max-width: 65%;
+  margin-left: 10%
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.message {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.message-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #a897ad;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.message-input::placeholder {
+  color: #a897ad;
+}
+
+.message-input:focus {
+  outline: none;
+  border-color: #3F0071; /* 获得焦点时的边框颜色 */
+}
+
+.my-avatar {
+  height: 100px;
+}
+
+p.talk-about {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.send-button {
+  background-color: #3F0071;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.send-button:hover {
+  background-color: #a897ad; /* 鼠标悬停时的背景颜色 */
+}
